@@ -4,7 +4,7 @@ input [7:0] phase_ctrl;
 input [2:0] func;
 output [7:0]wave;
 reg [15:0]n=0;
-wire [7:0] triangle,square,reciprocal;
+wire [7:0] triangle,square,reciprocal,DDS_out;
 assign triangle=(n[15]==1'b1)?{~(n[14:7])}:{n[14:7]};
 assign square=(n[15]==1'b1)?8'b11111111:8'b00000000;
 wire [6:0]for_rec;
@@ -14,6 +14,8 @@ always @(posedge clk)  begin
     n=n+1;
 end
 
+DDS DDS1(clk,phase_ctrl,DDS_out);
+
 always @(*) begin
     case(func)
     3'b000:wave=reciprocal;
@@ -22,6 +24,6 @@ always @(*) begin
     3'b011:wave=sine;
     3'b100:wave=full_rec;
     3'b101:wave=half_rec;
-    3'b110:wave=DDS;
+    3'b110:wave=DDS_out;
 end
 endmodule
