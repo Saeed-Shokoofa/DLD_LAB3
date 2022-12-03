@@ -6,6 +6,7 @@ reg [7:0]adr=0;
 always @(posedge clk) begin
     adr=adr+phase_ctrl;
 end
+
 DDS_mem DM(adr,clk,DDS_out);
 
 endmodule
