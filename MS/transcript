@@ -1,6 +1,166 @@
+# Compile of wave_gen.v failed with 4 errors.
+# Compile of wave_gen.v failed with 1 errors.
+# Compile of wave_gen.v failed with 7 errors.
+# Compile of wave_gen.v was successful with warnings.
+# Compile of wave_gen.v was successful.
+vsim -gui work.TestBench
+# vsim -gui work.TestBench 
+# Start time: 16:29:40 on Dec 04,2022
+# Loading work.TestBench
+# Loading work.wave_gen
+# Loading work.DDS
+# Loading work.DDS_mem
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'wave'. The port definition is at: E:/university/DLD LAB/3/DLD_LAB3/wave_gen.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /TestBench/WG File: E:/university/DLD LAB/3/DLD_LAB3/TB.v Line: 7
+# Compile of TB.v was successful.
+vsim -gui work.TestBench
+# End time: 16:30:12 on Dec 04,2022, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 8
+# vsim -gui work.TestBench 
+# Start time: 16:30:12 on Dec 04,2022
+# Loading work.TestBench
+# Loading work.wave_gen
+# Loading work.DDS
+# Loading work.DDS_mem
+add wave -position insertpoint sim:/TestBench/*
+add wave -position insertpoint sim:/TestBench/WG/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/TestBench/WG/*
+add wave -position insertpoint sim:/TestBench/WG/*
+# Compile of wave_gen.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.wave_gen
+run
+# Compile of wave_gen.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.wave_gen
+run
+add wave -position insertpoint sim:/TestBench/WG/DDS1/*
+add wave -position insertpoint sim:/TestBench/WG/*
+run
+run
+# Compile of wave_gen.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.wave_gen
+add wave -position insertpoint sim:/TestBench/WG/*
+run
+run
+run
+# Compile of wave_gen.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.wave_gen
+run
+add wave -position insertpoint sim:/TestBench/WG/*
+# Compile of wave_gen.v failed with 1 errors.
+# Compile of wave_gen.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.wave_gen
+run
+# Compile of wave_gen.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.wave_gen
+run
+run
+# Compile of TB.v was successful.
+# Compile of wave_gen.v was successful.
+vsim -gui work.TestBench
+# End time: 17:10:59 on Dec 04,2022, Elapsed time: 0:40:47
+# Errors: 0, Warnings: 3
+# vsim -gui work.TestBench 
+# Start time: 17:10:59 on Dec 04,2022
+# Loading work.TestBench
+# Loading work.wave_gen
+# Loading work.DDS
+# Loading work.DDS_mem
+add wave -position insertpoint sim:/TestBench/*
+run
+run
+# Compile of wave_gen.v was successful.
+# Compile of TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TestBench
+# Loading work.wave_gen
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of wave_gen.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.wave_gen
+run
+run
+# Compile of wave_gen.v was successful.
+# Compile of TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TestBench
+# Loading work.wave_gen
+run
+restart -f
+run
+restart -f
+run
+restart -f
+# Compile of TB.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.TestBench
 # Compile of DDS.v was successful.
 # Compile of DDS_mem.v was successful.
 # Compile of DDS_mem_bb.v was successful.
-# Compile of wave_gen.v failed with 3 errors.
-# 4 compiles, 1 failed with 3 errors.
+# Compile of wave_gen.v was successful.
 # Compile of TB.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim -gui work.TestBench
+# End time: 17:42:47 on Dec 04,2022, Elapsed time: 0:31:48
+# Errors: 0, Warnings: 3
+# vsim -gui work.TestBench 
+# Start time: 17:42:47 on Dec 04,2022
+# Loading work.TestBench
+# Loading work.wave_gen
+# Loading work.DDS
+# Loading work.DDS_mem
+add wave -position insertpoint sim:/TestBench/*
+run
+# Compile of AMP_sel.v failed with 1 errors.
+# Compile of counter.v was successful.
+# Compile of AMP_sel.v failed with 3 errors.
+# Compile of AMP_sel.v failed with 1 errors.
+# Compile of AMP_sel.v was successful.
