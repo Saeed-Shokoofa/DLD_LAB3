@@ -57,3 +57,27 @@ r1
 R5
 R6
 n@d@d@s_mem
+vTestBench
+!s110 1670153576
+!i10b 1
+!s100 io^jh>]EJM?b=^LMAU19c1
+R1
+ILIJR8LTLlSoBC9jTMQAmc1
+R2
+R3
+w1670153553
+8E:/university/DLD LAB/3/DLD_LAB3/TB.v
+FE:/university/DLD LAB/3/DLD_LAB3/TB.v
+!i122 3
+L0 1 19
+R4
+r1
+!s85 0
+31
+!s108 1670153576.000000
+!s107 E:/university/DLD LAB/3/DLD_LAB3/TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/university/DLD LAB/3/DLD_LAB3/TB.v|
+!i113 1
+R5
+R6
+n@test@bench
