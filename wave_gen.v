@@ -8,9 +8,11 @@ wire [7:0] triangle,square,reciprocal,DDS_out;
 assign triangle=(n[15]==1'b1)?{~(n[14:7])}:{n[14:7]};
 assign square=(n[15]==1'b1)?8'b11111111:8'b00000000;
 wire [6:0]for_rec;
+reg [7:0]cur_sin,past_sine;
 assign for_rec=(n[14:11]*n[14:11])>>1+n[14:11];
 assign reciprocal={n[15],for_rec};
 always @(posedge clk)  begin
+
     n=n+1;
 end
 
