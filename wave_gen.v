@@ -25,5 +25,6 @@ always @(*) begin
     3'b100:wave=full_rec;
     3'b101:wave=half_rec;
     3'b110:wave=DDS_out;
+    endcase
 end
 endmodule
