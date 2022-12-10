@@ -1,16 +1,16 @@
 module counter(clk,pl,rst,out,co);
 input clk,rst;
-input [1:0]pl;
-output reg [7:0] out;
+input [2:0]pl;
+output reg [8:0] out;
 output co;
 always @(posedge clk,posedge rst) begin
 if(rst)
-    out=0;
+    out={6'b0,pl};
 else begin 
     if(co)
-        out=0;
+        out={6'b0,pl};
     else begin
-        out=out+pl;
+        out=out+1;
     end
 end
 end

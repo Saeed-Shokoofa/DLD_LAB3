@@ -1,6 +1,6 @@
-module wave_gen(clk,phase_ctrl,func,wave);
+module wave_gen(clk,func,wave);
 input clk;
-input [7:0] phase_ctrl;
+// input [7:0] phase_ctrl;
 input [2:0] func;
 output reg[7:0]wave;
 reg [7:0]n=0;
