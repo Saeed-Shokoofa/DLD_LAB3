@@ -37,7 +37,7 @@
 
 
 set_global_assignment -name FAMILY "Cyclone II"
-set_global_assignment -name DEVICE EP2C35F484C7
+set_global_assignment -name DEVICE EP2C20F484C7
 set_global_assignment -name TOP_LEVEL_ENTITY LAB3
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:02:25  DECEMBER 04, 2022"
@@ -51,11 +51,26 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE ../PWM.v
 set_global_assignment -name VERILOG_FILE ../freq_dev.v
 set_global_assignment -name VERILOG_FILE ../wave_gen.v
 set_global_assignment -name VERILOG_FILE ../DDS.v
 set_global_assignment -name VERILOG_FILE ../counter.v
 set_global_assignment -name VERILOG_FILE ../AMP_sel.v
 set_global_assignment -name QIP_FILE DDS_mem.qip
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name BDF_FILE ../LAB3.bdf
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_location_assignment PIN_M22 -to pl[2]
+set_location_assignment PIN_L21 -to pl[1]
+set_location_assignment PIN_L22 -to pl[0]
+set_location_assignment PIN_W12 -to amp[1]
+set_location_assignment PIN_V12 -to amp[0]
+set_location_assignment PIN_M2 -to func[2]
+set_location_assignment PIN_U11 -to func[1]
+set_location_assignment PIN_U12 -to func[0]
+set_location_assignment PIN_L2 -to phase[1]
+set_location_assignment PIN_M1 -to phase[0]
+set_location_assignment PIN_T21 -to rst
+set_location_assignment PIN_L1 -to clock
+set_location_assignment PIN_A13 -to fin_out
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

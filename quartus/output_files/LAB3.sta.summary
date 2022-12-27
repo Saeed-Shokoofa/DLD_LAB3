@@ -1,0 +1,117 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'func[1]'
+Slack : -14.275
+TNS   : -64.163
+
+Type  : Slow Model Setup 'freq_dev:inst11|clk_o'
+Slack : -5.458
+TNS   : -104.531
+
+Type  : Slow Model Setup 'clock'
+Slack : -3.497
+TNS   : -35.621
+
+Type  : Slow Model Hold 'clock'
+Slack : -2.691
+TNS   : -3.134
+
+Type  : Slow Model Hold 'func[1]'
+Slack : -0.553
+TNS   : -3.011
+
+Type  : Slow Model Hold 'freq_dev:inst11|clk_o'
+Slack : 0.445
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'freq_dev:inst11|clk_o'
+Slack : -1.877
+TNS   : -15.016
+
+Type  : Slow Model Recovery 'clock'
+Slack : -0.044
+TNS   : -0.352
+
+Type  : Slow Model Removal 'clock'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Slow Model Removal 'freq_dev:inst11|clk_o'
+Slack : 2.141
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'freq_dev:inst11|clk_o'
+Slack : -1.814
+TNS   : -87.680
+
+Type  : Slow Model Minimum Pulse Width 'clock'
+Slack : -1.631
+TNS   : -23.627
+
+Type  : Slow Model Minimum Pulse Width 'func[1]'
+Slack : -1.631
+TNS   : -1.631
+
+Type  : Slow Model Minimum Pulse Width 'rst'
+Slack : -1.469
+TNS   : -1.469
+
+Type  : Fast Model Setup 'func[1]'
+Slack : -4.344
+TNS   : -16.759
+
+Type  : Fast Model Setup 'freq_dev:inst11|clk_o'
+Slack : -1.468
+TNS   : -15.537
+
+Type  : Fast Model Setup 'clock'
+Slack : -0.658
+TNS   : -4.795
+
+Type  : Fast Model Hold 'clock'
+Slack : -1.720
+TNS   : -3.172
+
+Type  : Fast Model Hold 'func[1]'
+Slack : -0.775
+TNS   : -5.758
+
+Type  : Fast Model Hold 'freq_dev:inst11|clk_o'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'freq_dev:inst11|clk_o'
+Slack : -0.250
+TNS   : -2.000
+
+Type  : Fast Model Recovery 'clock'
+Slack : 0.693
+TNS   : 0.000
+
+Type  : Fast Model Removal 'clock'
+Slack : -0.364
+TNS   : -2.868
+
+Type  : Fast Model Removal 'freq_dev:inst11|clk_o'
+Slack : 0.930
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'freq_dev:inst11|clk_o'
+Slack : -1.423
+TNS   : -70.768
+
+Type  : Fast Model Minimum Pulse Width 'clock'
+Slack : -1.380
+TNS   : -19.380
+
+Type  : Fast Model Minimum Pulse Width 'func[1]'
+Slack : -1.380
+TNS   : -1.380
+
+Type  : Fast Model Minimum Pulse Width 'rst'
+Slack : -1.222
+TNS   : -1.222
+
+------------------------------------------------------------

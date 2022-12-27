@@ -104,46 +104,70 @@ R5
 R6
 n@d@d@s_mem
 vfreq_dev
-!s110 1670167904
+!s110 1670763728
 !i10b 1
-!s100 fO92MlHiJ^5;e`fHJFjC`3
+!s100 g`XR_8K@Wi04A0g9092S02
 R0
-I]HAC`PI0lWRhfca4l:X>;3
+IbB<ZE53FfBjS3g>j=zBNS0
 R1
 R2
-w1670167897
+w1670763721
 8E:/university/DLD LAB/3/DLD_LAB3/freq_dev.v
 FE:/university/DLD LAB/3/DLD_LAB3/freq_dev.v
-!i122 31
-L0 1 17
+!i122 35
+L0 1 20
 R4
 r1
 !s85 0
 31
-!s108 1670167903.000000
+!s108 1670763728.000000
 !s107 E:/university/DLD LAB/3/DLD_LAB3/freq_dev.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/university/DLD LAB/3/DLD_LAB3/freq_dev.v|
 !i113 1
 R5
 R6
-vTestBench
-!s110 1670163154
+vPWM
+!s110 1670764556
 !i10b 1
-!s100 oNhmWi7bRb4e2zS=Yng[;2
+!s100 MT1iZBM7J6nb8WLiLO`Za3
 R0
-I2FfMdmzX1n4Ol`_M:5a?]0
+IEG>2l9YP1W5D_[PXDU3Ff2
 R1
 R2
-w1670163110
-8E:/university/DLD LAB/3/DLD_LAB3/TB.v
-FE:/university/DLD LAB/3/DLD_LAB3/TB.v
-!i122 25
-L0 1 19
+w1670764480
+8E:/university/DLD LAB/3/DLD_LAB3/PWM.v
+FE:/university/DLD LAB/3/DLD_LAB3/PWM.v
+!i122 36
+L0 1 10
 R4
 r1
 !s85 0
 31
-!s108 1670163154.000000
+!s108 1670764555.000000
+!s107 E:/university/DLD LAB/3/DLD_LAB3/PWM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/university/DLD LAB/3/DLD_LAB3/PWM.v|
+!i113 1
+R5
+R6
+n@p@w@m
+vTestBench
+!s110 1670768967
+!i10b 1
+!s100 ;Jd;9m9@^fc^^0EG?FW^]1
+R0
+I0c=cg:K]o:@9XRj<Q?VTc0
+R1
+R2
+w1670768955
+8E:/university/DLD LAB/3/DLD_LAB3/TB.v
+FE:/university/DLD LAB/3/DLD_LAB3/TB.v
+!i122 39
+L0 1 25
+R4
+r1
+!s85 0
+31
+!s108 1670768967.000000
 !s107 E:/university/DLD LAB/3/DLD_LAB3/TB.v|
 !s90 -reportprogress|300|-work|work|-stats=none|E:/university/DLD LAB/3/DLD_LAB3/TB.v|
 !i113 1

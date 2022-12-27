@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/university/DLD LAB/3/DLD_LAB3/MS
+vLAB3
+!s110 1670764727
+!i10b 1
+!s100 SmIhfQRnW`FhUB@?2fgRn3
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IQ1z1>USQ63O^:zfILaQJU0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dE:/university/DLD LAB/3/DLD_LAB3/quartus/simulation/TEST
+w1670763792
+8E:/university/DLD LAB/3/DLD_LAB3/quartus/simulation/modelsim/LAB3.vo
+FE:/university/DLD LAB/3/DLD_LAB3/quartus/simulation/modelsim/LAB3.vo
+!i122 0
+L0 31 6124
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1670764727.000000
+!s107 E:/university/DLD LAB/3/DLD_LAB3/quartus/simulation/modelsim/LAB3.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/university/DLD LAB/3/DLD_LAB3/quartus/simulation/modelsim/LAB3.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@l@a@b3
+vTestBench
+!s110 1670765330
+!i10b 1
+!s100 85z[ceB:z;HnC0z89MAV?3
+R0
+I1>=P8dIL<Xjk`kVmF8ST91
+R1
+R2
+w1670765322
+8E:/university/DLD LAB/3/DLD_LAB3/TB4Q.v
+FE:/university/DLD LAB/3/DLD_LAB3/TB4Q.v
+!i122 2
+L0 2 26
+R3
+r1
+!s85 0
+31
+!s108 1670765329.000000
+!s107 E:/university/DLD LAB/3/DLD_LAB3/TB4Q.v|
+!s90 -reportprogress|300|-work|work|-stats=none|E:/university/DLD LAB/3/DLD_LAB3/TB4Q.v|
+!i113 1
+R4
+R5
+n@test@bench

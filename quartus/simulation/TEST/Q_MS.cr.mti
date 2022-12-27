@@ -1,0 +1,8 @@
+{E:/university/DLD LAB/3/DLD_LAB3/TB4Q.v} {1 {vlog -work work -stats=none {E:/university/DLD LAB/3/DLD_LAB3/TB4Q.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}}

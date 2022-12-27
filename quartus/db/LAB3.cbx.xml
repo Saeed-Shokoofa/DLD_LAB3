@@ -1,5 +1,8 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="LAB3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB3|BUSMUX:inst8|lpm_mux:$00000" CBX_FILE_NAME="mux_smc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB3|DDS_mem:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_5o71.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB3|wave_gen:inst5|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_5dm.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

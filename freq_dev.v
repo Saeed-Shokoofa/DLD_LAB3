@@ -12,9 +12,11 @@ always @(posedge clk,posedge rst)begin
             cnt={6'b0,pl};
         else
             cnt=cnt+1;
+				if(&(cnt))begin
+					clk_o=~clk_o;
+					cnt={6'b0,pl};
+					end
     end
-    if(cnt==9'b111111111)
-        clk_o=~clk_o;
 end
 
 endmodule
